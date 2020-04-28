@@ -1,0 +1,29 @@
+body {}
+
+#book-form {
+  position: absolute;
+  top: 30vh;
+  left: 40vw;
+  padding: 2%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+form input {}
+
+.hidden {
+  display: none;
+}
+
+.darken {
+  background: rgba(0, 0, 0, 0.6);
+}

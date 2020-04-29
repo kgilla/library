@@ -1,24 +1,45 @@
-body {}
+body {
+  margin: 0 10%;
+}
 
-#book-form {
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+form {
   position: absolute;
   top: 30vh;
   left: 40vw;
-  padding: 2%;
+  padding: 1% 2%;
   border: 1px solid #aaa;
   border-radius: 5px;
   background-color: #ddd;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#submit, #cancel {
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 1% 0;
+}
+
+input {
+  border: 1px solid #888;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin: 3% 0;
+  padding: 1%;
 }
 
 button {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.2rem;
   padding: 1%;
   border: 1px solid #aaa;
   border-radius: 5px;
 }
-
-form input {}
 
 .hidden {
   display: none;

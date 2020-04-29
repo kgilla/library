@@ -9,9 +9,10 @@
 <body>
   <h1>My Library</h1>
   <button id="show-form">Add Book</button>
+  <div id="library"></div>
 
-  <form id="book-form" class="hidden">
-    <h3>Add a Book!</h3>
+  <form  method="GET" id="book-form" class="hidden">
+    <h2>Add a Book!</h2>
     <input type="text" name="title" placeholder="Title">
     <br>
     <input type="text" name="author" placeholder="Author">
@@ -20,8 +21,6 @@
     <br><br>
 
     <input type="button" name="submit" value="Add Book" id="new-book">
-    <br>
-    <input type="button" name="cancel" value="Cancel">
   </form>
 
   <script src="script.js"></script>
